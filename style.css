@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nova Slim', cursive;
+}
+body{
+    background-color: #112233;
+    
+}
+.main{
+    height: 100vh;
+}
+.headerContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 50%;
+}
+
+.title{
+    color: #F0F1F5;
+    margin-top: 1rem;
+}
+.btnCadastro{
+    background-color: #66CC99;
+    color: #F0F1F5;
+    width: 50%;
+    height: 55px;
+    font-size: 30px;
+    padding: 0rem 1rem;
+    box-shadow: 6px 6px #000;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+.btnCadastro:hover{
+    box-shadow: -4px -4px #000;
+    transition: .3s;
+    background-color: #44BBFF;
+    transition: .3s;
+}
+.btnVagas{
+    background-color: #66CC99;
+    color: #F0F1F5;
+    width: 50%;
+    height: 55px;
+    font-size: 30px;
+    padding: 0rem 1rem;
+    box-shadow: 6px 6px #000;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+.btnVagas:hover{
+    box-shadow: -4px -4px #000;
+    transition: .3s;
+    background-color: #44BBFF;
+    transition: .3s;
+}
+#btnAdd{
+    background-color: #44BBFF;
+    color: #F0F1F5;
+    width: 50%;
+    height: 3rem;
+    font-size: 20px;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+#btnAdd:hover{
+    background-color:#FC575E;
+    transition: .3s;
+}
+.ul{
+    display: flex;
+    min-height: 40vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+.list-vagas{
+    display: flex;
+    height: 100%;
+    min-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inputName, .inputDate{
+    width:20%;
+    height: 3rem;
+    text-align: center;
+}
+.descriptionArea{
+    text-align: center;
+}
+.inputName, .inputDate, .descriptionArea{
+    margin-top: 1rem;
+}
+#line{
+    width: 100%;
+    margin-top: .5rem;
+    border-bottom: 1px solid #66cc9938;
+}
+#lista-de-vagas{
+    color: #F0F1F5;
+    font-size: 20px;
+    margin: .5rem 0rem .5rem .5rem;
+}
+
+@media (min-width: 280px){
+   .inputName, .inputDate{
+    width: 50%;
+   }
+   .btnCadastro, .btnVagas{
+    font-size: 20px;
+   }
+}
